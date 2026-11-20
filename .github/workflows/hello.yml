@@ -3,8 +3,8 @@ name: Exercice 1
 on:
   push: 
     paths:
-      - *.yml'
-      - !**/.yml'
+      - '*.yml'
+      - '!**/.yml'
   
 jobs:
   job_ex1:
